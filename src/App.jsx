@@ -10,7 +10,7 @@ function App() {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "https://api.cricapi.com/v1/currentMatches?apikey=YOUR_API_KEY"
+          "https://api.cricapi.com/v1/matches?apikey=81aa138a-2f2a-4f63-b30b-7d9fe4be3a1f&offset=0"
         );
 
         console.log("API Response:", response.data); // ✅ CHECK CONSOLE FOR DATA
