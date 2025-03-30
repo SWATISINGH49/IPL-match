@@ -13,7 +13,7 @@ function App() {
           "https://api.cricapi.com/v1/matches?apikey=81aa138a-2f2a-4f63-b30b-7d9fe4be3a1f&offset=0"
         );
 
-        console.log("API Response:", response.data); // ✅ CHECK CONSOLE FOR DATA
+        console.log("API Response:", response.data); 
 
         if (response.data && response.data.data) {
           setMatches(response.data.data);
